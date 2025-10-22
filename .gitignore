@@ -1,0 +1,29 @@
+# -------------------------------------------------
+# 1️⃣ Ignore tout par défaut
+# -------------------------------------------------
+*
+
+# -------------------------------------------------
+# 2️⃣ Exceptions : on garde uniquement ce qu’on veut
+# -------------------------------------------------
+# Keep these folders
+!src/
+!public/
+
+# -------------------------------------------------
+# 3️⃣ Keep project configuration & metadata
+# -------------------------------------------------
+!package.json
+!package-lock.json
+!vite.config.ts
+!tsconfig.json
+!tsconfig.app.json
+!tsconfig.node.json
+!eslint.config.js
+!components.json
+!README.md
+
+# -------------------------------------------------
+# 4️⃣ Keep Git files themselves
+# -------------------------------------------------
+!.gitignore
