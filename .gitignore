@@ -1,18 +1,11 @@
-# -------------------------------------------------
-# 1️⃣ Ignore tout par défaut
-# -------------------------------------------------
+# Ignore everything by default
 *
+!*/
 
-# -------------------------------------------------
-# 2️⃣ Exceptions : on garde uniquement ce qu’on veut
-# -------------------------------------------------
-# Keep these folders
-!src/
-!public/
+# ======================
+# Only allow these files and directories
+# ======================
 
-# -------------------------------------------------
-# 3️⃣ Keep project configuration & metadata
-# -------------------------------------------------
 !package.json
 !package-lock.json
 !vite.config.ts
@@ -23,7 +16,7 @@
 !components.json
 !README.md
 
-# -------------------------------------------------
-# 4️⃣ Keep Git files themselves
-# -------------------------------------------------
+# Source code
+!src/**
+
 !.gitignore
